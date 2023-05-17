@@ -13,9 +13,9 @@ describe("greeter", () => {
      expect(sut).toBeInstanceOf(Function);
   }) 
 
-  it("greeter returns an object ", () => {
+  it("greeter functions' hello world return `hello world` ", () => {
     // Arrange
-     const sut=greeter;
+     const sut=greeter();
      //Act
      const actual = greeter()
      //Assert
