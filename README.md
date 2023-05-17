@@ -68,3 +68,4 @@ Config :
 > The principles you should keep in mind while writing any test code
 
 1. _(F)ast_ : The test should be **FAST**
+1. _(I)ndependent/Isolated_ : The test should be **independent** and self contained ( our test should not depend on external dependencies )
