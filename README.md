@@ -1,2 +1,5 @@
 # tdd-fundamentals-in-typescript
- test driven development in node with typescript
+
+So , what is Test Driven Development ? 
+
+![TDD](pictures/tdd.jpg 'test driven development')
