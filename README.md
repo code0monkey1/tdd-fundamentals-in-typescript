@@ -35,4 +35,12 @@ Config :
      ```bash
       npx tsc --init
      ```
-1.
+1. Next set up a script to run tests every time there is a change in the code : 
+    
+    ```json
+
+        "scripts": {
+          "test": "jest --watchAll --verbose"
+        }
+
+    ```
