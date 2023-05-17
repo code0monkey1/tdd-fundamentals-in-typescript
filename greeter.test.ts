@@ -1,13 +1,17 @@
 import { greeter } from "./greeter";
 
-describe("function exists", () => {
+describe("greeter", () => {
 
-  it("has a func", () => {
+  it("greeter is defined", () => {
       
+    // Arrange
      const sut=greeter;
+    
+     //Act
 
+
+     //Assert
      expect(sut).toBeDefined();
-
      expect(sut).toBeInstanceOf(Function);
       
   }) 
