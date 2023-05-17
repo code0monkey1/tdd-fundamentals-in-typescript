@@ -52,3 +52,11 @@ Config :
       3. install all node dependencies :  npm i 
       4. run the jest script :  npm run test
    ```
+
+
+### Typical Structure of a Test
+> 1. Arrange
+> 1. Act
+> 1. Asert
+
+![Test](./pictures/structure-of-test.jpg)
