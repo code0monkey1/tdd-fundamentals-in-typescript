@@ -22,5 +22,17 @@ describe("greeter", () => {
      //Assert
      expect(received).toBe(expected);
   })
+
+  it("helloPerson function with no name should return `Hello!`", () => {
+     // Arrange
+     const sut =greeter();
+
+     //Act
+     const received = sut.helloPerson("")
+     const expected =`Hello !`
+
+     //Assert
+     expect(received).toBe(expected);
+  })
   
 })
