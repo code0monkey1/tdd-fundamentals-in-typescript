@@ -17,9 +17,10 @@ describe("greeter", () => {
     // Arrange
      const sut=greeter();
      //Act
-     const actual = greeter()
+     const received = sut.helloWorld()
+     const expected = "Hello World!"
      //Assert
-     expect(actual).toBeInstanceOf(Object);
+     expect(received).toBe(expected);
   })
   
 })
