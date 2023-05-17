@@ -9,3 +9,13 @@
 [TDD Exercise Book](./data/TDD-Fundamentals-in-TypeScript.pdf)
 
 ---
+
+Config : 
+
+1. Set up the project 
+  
+    ```bash
+
+     npm init -y
+
+    ```
