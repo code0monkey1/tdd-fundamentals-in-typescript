@@ -12,10 +12,16 @@
 
 Config : 
 
-1. Set up the project 
+1. Set up the node project 
   
     ```bash
 
      npm init -y
 
     ```
+1. Install typescript / jest / types for jest / typescript jest translator . As dev dependency's
+    
+    ```bash
+       npm i -D jest typescript @types/jest ts-jest
+    ```
+1.
