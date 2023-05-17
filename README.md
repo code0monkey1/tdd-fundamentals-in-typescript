@@ -55,8 +55,8 @@ Config :
 
 
 ### Typical Structure of a Test
-> 1. Arrange
-> 1. Act
-> 1. Asert
+> 1. _Arrange_ :  Get together all the variables needed to conduct the test .
+> 1. _Act_ : Execute the 1 thing to be tested.
+> 1. _Assert_ : Verify your **actual** value matches the **expected** value.
 
 ![Test](./pictures/structure-of-test.jpg)
