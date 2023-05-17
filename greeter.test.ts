@@ -3,9 +3,12 @@ import { greeter } from "./greeter";
 describe("function exists", () => {
 
   it("has a func", () => {
+      
+     const sut=greeter;
 
-      expect(greeter).toBeDefined();
-      expect(greeter).toBeInstanceOf(Function);
+     expect(sut).toBeDefined();
+
+     expect(sut).toBeInstanceOf(Function);
       
   }) 
   
