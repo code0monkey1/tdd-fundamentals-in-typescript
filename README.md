@@ -30,8 +30,9 @@ Config :
       npx ts-jest config:init
    ```
    > Which will create `jest.config.js` file
-1. Create a `.tsconfig.json` file with the following configuration
+1. Create a `.tsconfig.json` file with the following command ( to get rid of the error message in the command line  while running jest):
      
      ```bash
       npx tsc --init
      ```
+1.
