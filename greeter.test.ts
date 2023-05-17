@@ -5,7 +5,7 @@ describe("function exists", () => {
   it("has a func", () => {
 
       expect(greeter).toBeDefined();
-      expect(greeter).toBe(Function);
+      expect(greeter).toBeInstanceOf(Function);
   }) 
   
 })
