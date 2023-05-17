@@ -71,3 +71,4 @@ Config :
 1. _(I)ndependent/Isolated_ : The test should be **independent** and self contained ( our test should not depend on external dependencies , and one test should not interfere with other tests , and does not depend on external databases / http requests etc )
 1. _(R)epeatable_ : Every time the test is executed , the result should be the same [ Deterministic test ]
 1. _(S)elf-Validating : Tests should either `pass` or `fail`
+1. _(T)horough_ : Tests should  
