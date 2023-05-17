@@ -60,3 +60,11 @@ Config :
 > 1. _Assert_ : Verify your **actual** value matches the **expected** value.
 
 ![Test](./pictures/structure-of-test.jpg)
+
+---
+
+### F.I.R.S.T Principles for Testing 
+
+> The principles you should keep in mind while writing any test code
+
+1. _(F)ast_ : The test should be **FAST**
