@@ -24,4 +24,10 @@ Config :
     ```bash
        npm i -D jest typescript @types/jest ts-jest
     ```
+1. Set up the jest config file :
+   
+   ```bash
+      npx ts-jest config:init
+   ```
+   > Which will create `jest.config.js` file
 1.
