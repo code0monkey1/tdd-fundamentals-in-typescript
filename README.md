@@ -44,10 +44,11 @@ Config :
         }
 
     ```
-1.Copying the initial TDD configuration for any project 
-   ```bash
-      1.create a new project :  mkdir new-tdd-node-project 
-      2.move all configuration , except node_modules to new project:   mv  ../tdd2/*.* ./    
-      3.install all node dependencies :  npm i 
+1. Copying the `Starter TDD configuration` for any project 
+   
+  ```bash
+      1. create a new project :  mkdir new-tdd-node-project 
+      2. move all configuration , except node_modules to new   project:   mv  ../tdd2/*.* ./    
+      3. install all node dependencies :  npm i 
       4. run the jest script :  npm run test
    ```
