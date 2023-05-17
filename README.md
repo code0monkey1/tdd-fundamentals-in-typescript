@@ -30,4 +30,8 @@ Config :
       npx ts-jest config:init
    ```
    > Which will create `jest.config.js` file
-1.
+1. Create a `.tsconfig.json` file with the following configuration
+     
+     ```bash
+      npx tsc --init
+     ```
