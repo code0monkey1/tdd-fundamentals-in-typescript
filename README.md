@@ -76,3 +76,12 @@ Config :
     + E2E tests are the least ( as they take a lot of time)     
     +  Integration Tests are a bit more (As they take a little less time )   
     + Unit tests are the most (As they take the least time and can cover all scenarios at the unit level) .
+
+
+---
+
+### The 3 Laws of TDD
+
+1. You are not allowed to write any production code _unless it is to make a production code pass_
+1. You are not allowed to write any more of a  unit test than is sufficient to fail ; a compilation error is a failure
+1. You are not allowed to write any production code than is sufficient to pass the unit test
