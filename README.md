@@ -70,9 +70,9 @@ Config :
 1. _(F)ast_ : The test should be **FAST**
 1. _(I)ndependent/Isolated_ : The test should be **independent** and self contained ( our test should not depend on external dependencies , and one test should not interfere with other tests , and does not depend on external databases / http requests etc )
 1. _(R)epeatable_ : Every time the test is executed , the result should be the same [ Deterministic test ]   
-     - Should not have `flickering tests` i.e: Some times pass / other times fail
-2. _(S)elf-Validating_ : Tests should either `pass` or `fail`
-3. _(T)horough_ : Tests should  cover all scenarios at the unit level using TDD. Because , as you go up , the tests become less.     
-    + E2E tests are the least ( as they take a lot of time)  ,   
-    +  Integration Tests are a bit more (As they take a little less time ),   
+    - Should not have `flickering tests` i.e: Some times pass / other times fail
+1. _(S)elf-Validating_ : Tests should either `pass` or `fail`
+1. _(T)horough_ : Tests should  cover all scenarios at the unit level using TDD. Because , as you go up , the tests become less.     
+    + E2E tests are the least ( as they take a lot of time)     
+    +  Integration Tests are a bit more (As they take a little less time )   
     + Unit tests are the most (As they take the least time and can cover all scenarios at the unit level) .
